@@ -1,0 +1,22 @@
+{
+  "name": "kodingdojo/mars-rover",
+  "description": "Mars Rover Kata",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Hossein",
+      "email": "hossein@arvancloud.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MarsRover\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^9.3.7",
+    "spatie/enum": "^3.0.0"
+  }
+}
